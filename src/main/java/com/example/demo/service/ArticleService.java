@@ -1,9 +1,8 @@
 package com.example.demo.service;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.repository.ArticleRepository;
@@ -16,7 +15,6 @@ public class ArticleService {
 		
 		public ArticleService(ArticleRepository articleRepository) {
 			this.articleRepository = articleRepository;
-			articleRepository.makeTestData();
 		}
 
 		public Article writeArticle(String title, String body) {
