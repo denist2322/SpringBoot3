@@ -7,4 +7,4 @@ spring:
     username: sm
     password: 1234  
 mybatis:
-  type-aliases-package: com.exam.demo.vo 
+  type-aliases-package: com.example.demo.vo 
